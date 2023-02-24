@@ -31,19 +31,20 @@
 }
 
 .hero__img{
-    top: 50px;
-        right: 26px;
+top: 42px;
+    right: 30px;
 }
-.hero__img::after{
-    position: absolute;
-    top: 0;
-    right: 0;
+.hero__circle{
+    position: absolute;    
+    top: 34px;
+        right: -62px;
 
-    content: "";
     width: 346px;
     height: 344px;
-    border-radius: 50%;
     background-color: #FFA5BA;
+    border-radius: 50%;
+
+
 }
 
 .btn-red{
