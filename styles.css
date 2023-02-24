@@ -1,53 +1,158 @@
-.header{
-    background-color: #FFB8CA;
+.body {
+  font-family: "DM Sans";
 }
 
-.logo:hover{
-    color: #8e0c2d;
-}
-.burger{
-    color: #D41443;
+.header {
+  background-color: #ffb8ca;
 }
 
-.burger:hover{
-    color: #8e0c2d;
+.logo:hover {
+  color: #8e0c2d;
 }
-.hero{
-    min-height: 500px;
-}
-
-.hero__title{
-    color: #D41443;
-}
-.hero__btn{
-    border-radius: 20px;
-   padding: 5px 15px;
-   background-color: #fff;
-   color: #D41443;
+.burger {
+  cursor: pointer;
+  color: #d41443;
 }
 
-.hero__btn-kit{
-    padding-top: 20px;
+.burger:hover {
+  color: #8e0c2d;
 }
 
-.hero__img{
-top: 42px;
-    right: 30px;
+/* ===========================================Hero=================================== */
+.hero {
+  min-height: 443px;
+  padding-top: 136px;
 }
-.hero__circle{
-    position: absolute;    
-    top: 34px;
-        right: -62px;
-
-    width: 346px;
-    height: 344px;
-    background-color: #FFA5BA;
-    border-radius: 50%;
-
-
+.hero__title {
+  font-family: "Titan One";
+  font-size: 26px;
+  line-height: 1.15;
+  color: #fff;
 }
 
-.btn-red{
-    background-color: #D41443;
-    color: #fff;
+.hero__title-span {
+  color: #d41443;
+  font-size: 48px;
+}
+
+.hero__btn {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: #fff;
+  color: #d41443;
+  min-width: 63px;
+  font-size: 8px;
+}
+.hero__btn:hover {
+  background-color: #e4e2e3;
+}
+
+.hero__btn-kit {
+  padding-top: 20px;
+}
+
+.hero__img {
+  position: absolute;
+  top: 42px;
+  right: 30px;
+}
+.hero__circle {
+  position: absolute;
+  top: 34px;
+  right: -7px;
+}
+
+.btn-red {
+  background-color: #d41443;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #8e0c2d;
+}
+.hero__title-row {
+  margin-bottom: 20px;
+}
+
+/* ===========================================About================================== */
+
+.about{
+    padding-top: 60px;
+}
+.about__title{
+    font-family: 'Titan One';
+   
+    font-size: 18px;
+    line-height: 1.16;
+    
+
+    text-align: center;
+ 
+
+    color: #FFA5BA;
+}
+
+.about__title span{
+   
+    
+        font-size: 34px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.04em;
+     
+    
+        color: #D41443;
+}
+
+.about__title-row{
+    margin-bottom: 148px;
+}
+.about__card{
+    min-height: 489px;
+    border-radius: 24px;
+    padding-top: 163px;
+    
+
+}
+
+.card-row:not(:last-child){
+    margin-bottom: 140px;
+}
+
+.about__card-1{
+    background-color: #ffb8ca;
+}
+.about__card-2{
+    background-color: #F0D1A5;
+}
+.about__card-3{
+    background-color: #C2E297;
+}
+.about__card-img {
+    top: -140px;
+        left: 28px;
+}
+
+.about__card-title {
+  font-family: "Titan One";
+
+  font-size: 20px;
+  line-height: 1.15;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.about__card-text {
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+
+    
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #fff;
 }
